@@ -1,0 +1,66 @@
+
+/* container do layout da co component */
+.container-sobre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 680px;
+    background-color: black;
+    color: white;
+}
+
+/* container dos conteudos do component */
+.container-conteudo {
+    display: flex;
+    width: 70%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* imagem de apresentação || Home page */
+.container-sobre img {
+    width: 500px;
+    height: 566px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+/* Textos da apressentação */
+section {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20x;
+}
+
+section h2 {
+    font-size: 64px;
+    margin-bottom: 120px;
+    font-weight: 400;
+font-style: italic;
+}
+
+section h3 {
+    font-size: 24px;
+    color: #404040;
+    margin-bottom: 10px;
+}
+
+/* Estilizacao linha de baixo H3 */
+
+#linha-main {
+    width: 142px;
+    border: solid 1px rgba(137, 43, 226, 0.674);
+    margin-bottom: 30px;
+}
+
+section p {
+    font-size: 12px;
+    margin-top: 30px;
+    letter-spacing: 3px;
+    font-weight: 300;
+}
