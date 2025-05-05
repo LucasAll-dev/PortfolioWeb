@@ -1,0 +1,7 @@
+/* estilizacao do layout do segimento do portfolio */
+#container-portfolio{
+    width: auto;
+    height: 745px;
+    display: flex;
+    background-color: black;
+}

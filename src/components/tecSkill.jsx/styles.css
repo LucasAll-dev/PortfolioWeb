@@ -1,0 +1,76 @@
+
+#titulo-container {
+    width: auto;
+}
+
+/* estilizacao do titulo da secao de technical skill */
+#titulo-pagina-skill {
+    color: black;
+    font-size: 60px;
+    margin-top:40px;
+    font-weight: 600;
+    font-style: italic
+}
+
+/* linha de baixo do H3 servicos */
+#linha-skill {
+    width: 100%;
+    border: solid 2px black;
+    margin-top: 4px;
+    margin-bottom: 60px;
+    border-radius: 20px;
+}
+
+
+/* container dos cards de skill */
+#container-card-skill {
+    width: auto;
+    height: auto;
+    display: flex;
+    gap: 65px;
+}
+
+/* cards para infroamcoes do skill */
+.card-skill {
+    width: 470px;
+    height: 160px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*gap: 15px;*/
+    border-radius: 15px;
+    padding: 15px;
+}
+
+
+/* layout para estlizar a img e descricao para horizontal */
+.container-info-skill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* titulo do card */
+.card-skill h3 {
+    text-transform: uppercase;
+    font-style: italic;
+    margin-top: -20px;
+    margin-bottom: 15px;
+}
+
+
+/* imagem do cards skill */
+.card-skill img {
+    width: 100px;
+    height: 100px;
+    padding-right: 15px;
+}
+
+/* Descricao do cads skills */
+.card-skill p {
+    font-size: 10px;
+
+}
