@@ -1,0 +1,70 @@
+
+/* layout dos cards */
+
+/* estilizacao do container dos cards do portfolio */
+#container-cards-portfolio {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%; /*1170px*/
+    padding: 1.5rem 0;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+}
+
+
+
+/* estilizacao dos cards do portfolio */
+.card-portfolio {
+    width: 330px;
+    height: 300px;
+    margin-bottom: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #FFF;
+}
+
+#cards {
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+    transition: 0.6s;
+}
+
+#cards:hover {
+    background-size: 110%;
+    filter: grayscale(0%);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+}
+
+
+/* estilizacao do titulo do card */
+.title_card_portfolio {
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+/* estilizacao do link dos cards de portfolio */
+.link_card_portfolio {
+    color: #777;
+    text-decoration: none;
+    transition: 0.4s;
+    padding: 0.6rem 2rem;
+    border: 2px solid #FFF;
+    color: #FFF;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.link_card_portfolio:hover {
+    background-color: #FFF;
+    color: #000;
+}

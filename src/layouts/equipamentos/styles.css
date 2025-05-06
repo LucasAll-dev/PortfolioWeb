@@ -1,0 +1,23 @@
+#container-equipamentos {
+    width: auto;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    background-color: #131313;
+}
+
+/* container do titulo */
+#titulo-container-equipamentos {
+    width: auto;
+    margin-right: 50px;
+}
+
+
+/* estilizacao do titulo da secao de technical skill */
+#titulo-pagina-equipamentos {
+    color: white;
+    font-size: 44px;
+    margin-top:40px;
+    font-weight: 600;
+    font-style: italic;
+}

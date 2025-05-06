@@ -1,0 +1,8 @@
+/* linha de baixo do H3 servicos */
+.linha-skill-1 {
+    width: 100%;
+    border: solid 2px white;
+    margin-top: 4px;
+    margin-bottom: 60px;
+    border-radius: 20px;
+}

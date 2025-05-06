@@ -1,7 +1,25 @@
-/* estilizacao do layout do segimento do portfolio */
-#container-portfolio{
-    width: auto;
-    height: 745px;
+/* estilizacao do container do laout do component */
+#container-portfolio {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: 860px;
     background-color: black;
+
 }
+
+#titulo-container-portfolio {
+    width: auto;
+    margin-right: 900px;
+}
+
+/* estilizacao do titulo da secao de technical skill */
+#titulo-pagina-portfolio {
+    color: white;
+    font-size: 44px;
+    margin-top:40px;
+    font-weight: 600;
+    font-style: italic;
+}
+

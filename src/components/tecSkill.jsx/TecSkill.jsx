@@ -1,20 +1,28 @@
 import "./styles.css"
 import skilCards from "../../assets/data/InfoSkill";
+import Titulo from "../tituloH3/Titulo";
 
 
 function TecSkill () {
+    const containerSkill = "titulo-container";
+    const IdSkill = "titulo-pagina-skill";
+    const TextSkill = "Technical skillr";
+    const linhaBranca = "linha-skill";
+
     return (
         <>
-            <div id="titulo-container">
-                <h3 id="titulo-pagina-skill">Technical skill</h3>
-                <div id="linha-skill"></div>
-            </div>
+            <Titulo 
+                Container={containerSkill}
+                Id={IdSkill}
+                Text={TextSkill}
+                IdLinha={linhaBranca}
+            />
             <div id="container-card-skill">
                 {skilCards.map((skilCards) => (
                     <div key={skilCards.id} className="card-skill">
                             <h3>{skilCards.tituloSkill}</h3>
                             <div className="container-info-skill">
-                                <img src={skilCards.url} alt={skilCards.alt} />
+                                <img id={skilCards.id_img} src={skilCards.url} alt={skilCards.alt} />
                                 <p>{skilCards.descricao}</p>
                             </div>
                     </div>

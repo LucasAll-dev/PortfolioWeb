@@ -1,6 +1,7 @@
 //import "./styles.css"
 import Header from "../components/header/Header"
 import Sobre from "../components/sobre/Sobre"
+import Equipamentos from "../layouts/equipamentos/Equipamento";
 import Portfolio from "../layouts/portfolio/Portfolio";
 import Servico from "../layouts/servicos/Servico"
 import Skill from "../layouts/skill/Skill";
@@ -13,6 +14,7 @@ function Home () {
             <Servico />
             <Skill />
             <Portfolio />
+            <Equipamentos />
         </div>
     );
 };
