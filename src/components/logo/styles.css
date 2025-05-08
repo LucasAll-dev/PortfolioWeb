@@ -1,0 +1,23 @@
+/* container do logo */
+
+.container-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 20px;
+    padding: 10px 15px 10px 15px;
+    border: solid 1px white;
+    margin-left: 100px;
+    border-radius: 5px;
+}
+
+/* tira a linha de baixo da tag `a` */
+.link-text-none {
+    text-decoration: none;
+}
+
+.container-logo a h1 {
+    color: white;
+    font-size: 24px;
+}

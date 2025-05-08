@@ -7,9 +7,9 @@
 #titulo-pagina-skill {
     color: black;
     font-size: 60px;
-    margin-top:40px;
+    margin-top: 10px;
     font-weight: 600;
-    font-style: italic
+    font-family: "Source Serif 4", serif;
 }
 
 /* linha de baixo do H3 servicos */

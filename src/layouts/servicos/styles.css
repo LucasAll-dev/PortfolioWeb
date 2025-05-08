@@ -9,12 +9,19 @@
 
 }
 
+/* container do titulo */
+#titulo-container-servicos {
+    width: auto;
+    /*margin-right: 810px;*/
+}
+
+/* titulo da secao */
 #titulo-pagina {
     color: white;
-    font-size: 38px;
-    margin-top:40px;
+    font-size: 60px;
+    margin-top: 20px;
     font-weight: 600;
-    font-style: italic
+    font-family: "Source Serif 4", serif;
 }
 
 

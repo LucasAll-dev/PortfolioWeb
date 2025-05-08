@@ -1,17 +1,3 @@
-/*========================================*/
-/*          Estilização do Header         */
-/*========================================*/
-
-header {
-    display: flex;
-    width: 100%;
-    height: 65px;
-    /*border: solid 2px blue;*/
-    align-items: center;
-    justify-content: space-between;
-    background-color: #131313;  
-}
-
 /* tira a linha de baixo da tag `a` */
 .link-text-none {
     text-decoration: none;
@@ -49,15 +35,3 @@ nav {
     transition: 0.8s;
 }
 
-
-
-/* icones de redes sociais */
-
-.container-social-midia {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 90px;
-    height: auto;
-    margin-right: 50px;
-}
