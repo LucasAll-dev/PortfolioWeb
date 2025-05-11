@@ -1,6 +1,8 @@
 function ServicosDetalhes () {
     return(
-        <></>
+        <>
+            <h3>page servicos detalhados</h3>
+        </>
     );
 };
 

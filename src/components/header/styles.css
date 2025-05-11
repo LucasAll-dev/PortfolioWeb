@@ -50,14 +50,3 @@ nav {
 }
 
 
-
-/* icones de redes sociais */
-
-.container-social-midia {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 90px;
-    height: auto;
-    margin-right: 50px;
-}

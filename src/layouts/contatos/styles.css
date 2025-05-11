@@ -1,27 +1,9 @@
-/* layout do segmento de equipamentos */
+/* layout do segmento */
 #container-contato {
     width: auto;
-    height: 800px;
+    height: 700px;
     display: flex;
-    justify-content: top;
-    align-items: start;
-    flex-direction: column;
     background-color: #131313;
-    padding: 0 0 0 10%;
-}
-
-/* container do titulo */
-#titulo-container-contato {
-    width: auto;
-    /*margin-right: 810px;*/
-}
-
-
-/* estilizacao do titulo da secao de technical skill */
-#titulo-pagina-contato {
-    color: white;
-    font-size: 44px;
-    margin-top:40px;
-    font-family: "Source Serif 4", serif;
-    font-weight: 600;
+    padding: 0 10%;
+    border: solid 1px blue;
 }

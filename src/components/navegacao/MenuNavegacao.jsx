@@ -1,12 +1,12 @@
 import "./styles.css"
 
-function MenuNavegacao ({ scrollToSection, ref }) {
+function MenuNavegacao () {
     return(
         <nav>
-            <button onClick={() => scrollToSection(ref.homeRef)}>Home</button>
-            <button onClick={() => scrollToSection(ref.servicoRef)}>Serviços</button>
-            <button onClick={() => scrollToSection(ref.portfolioRef)}>Portfolio</button>
-            <button onClick={() => scrollToSection(ref.contatoRef)}>Contato</button>
+            <button className="link-nav-roxo">Home</button>
+            <button className="link-nav-padrao">Serviços</button>
+            <button className="link-nav-padrao">Portfolio</button>
+            <button className="link-nav-padrao">Contato</button>
         </nav>
     )
 }

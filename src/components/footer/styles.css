@@ -1,20 +1,25 @@
 /* estilizacao do layout do footer */
 footer {
     width: 100%;
-    height: 150px;
+    height: 70px;
     background-color: black;
     display: flex;
 }
 
 /* container para menu do footer*/
-#menu-footer {
-    width: 100%;
-    height: 70%;
+.container-footer-info {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
 }
 
-/* container para reserved */
-#container-reserved {
-    width: 100%;
-    height: 30%
-    
+#container-footer-esquerda {
+    justify-content: left;
+    gap: 20px;
+}
+
+#container-footer-direita {
+        justify-content: right;
 }

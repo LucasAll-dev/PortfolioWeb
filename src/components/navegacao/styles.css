@@ -1,8 +1,3 @@
-/* tira a linha de baixo da tag `a` */
-.link-text-none {
-    text-decoration: none;
-}
-
 /* menu de navegavao */ 
 
 nav {
@@ -13,15 +8,12 @@ nav {
     justify-content: space-around;
 }
 
-.list-none {
-    list-style: none;
-}
-
 .link-nav-padrao {
-    text-decoration: none;
+    background-color: #131313;
     color: white;
-    font-size: 12px;
+    /*font-size: 30px;*/
     transition: 0.2s;
+    border: none;
 }
 
 .link-nav-padrao:hover {
@@ -29,9 +21,10 @@ nav {
 }
 
 .link-nav-roxo {
-    text-decoration: none;
+    background-color: #131313;
     color: blueviolet;
     font-size: 12px;
     transition: 0.8s;
+    border: none;
 }
 
