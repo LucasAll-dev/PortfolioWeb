@@ -1,7 +1,7 @@
 /* estilizacao do layout do footer */
 footer {
     width: 100%;
-    height: 70px;
+    height: 8vh;
     background-color: black;
     display: flex;
 }

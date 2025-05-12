@@ -1,18 +1,18 @@
 import "./styles.css"
-import servicos from "../../assets/data/InfoServico"
-
+import { detalhesServicos } from "../../assets/data/infoDetalhesServicos";
+import { Link } from "react-router-dom";
 
 function ServicosCards () {
     return (
             <section className="servicos-layout">
-                {servicos.map((servicos) => (
-                    <a key={servicos.id} className="card-link" href={servicos.link}>
-                        <div className={servicos.card_props}>
-                            <img className={servicos.card_img} src={servicos.img} alt={servicos.alt} />
-                            <h3 className="titulo-servico">{servicos.titulo}</h3>
-                            <p className="preco-card">R${servicos.preco}</p>
+                {detalhesServicos.map((detalhesServicos) => (
+                    <Link to={`/servicos/${detalhesServicos.id}`} key={detalhesServicos.id} className="card-link">
+                        <div className={detalhesServicos.card_props}>
+                            <img className={detalhesServicos.card_img} src={detalhesServicos.img} alt={detalhesServicos.alt} />
+                            <h3 className="titulo-servico">{detalhesServicos.titulo}</h3>
+                            <p className="preco-card">R${detalhesServicos.preco}</p>
                         </div>
-                    </a>
+                    </Link>
                 ))}
             </section>
     );

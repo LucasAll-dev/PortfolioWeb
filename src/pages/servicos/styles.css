@@ -1,14 +1,60 @@
 /* layout da secao de servicos detalhados */
 .container-servicos-detalhes {
     width: 100%;
-    height: 700px;
+    height: 83vh;
     display: flex;
+    justify-content: center;
+    background-color:  black;/*#131313;*/
 }
 
 /* container da divisao dos conteudos entre img e text */
 .container-servicos-info-detalhes {
     border: solid red 1px;
-    width: 50%;
+    width: 45%;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
 }
 
+/* estilizacao do container caso nao ache o id do servico */
+.not-found-services {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    
+}
+
+/* container do titulo */
+#titulo-servicos-detalhes {
+    width: auto;
+    /*margin-right: 810px;*/
+}
+
+/* titulo da secao */
+#titulo-pagina-serDetalhes {
+    color: white;
+    font-size: 38px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-family: "Source Serif 4", serif;
+}
+
+/* img da secao de servicos detalhados */
+.img-servicosDetalhados {
+    width: 300x;
+    height: 510px;
+}
+
+/* estilizacao do titulo de informacoes de pacote */
+.pacotes-detalhes {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 14%;
+}
