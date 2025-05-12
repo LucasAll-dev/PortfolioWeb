@@ -2,6 +2,9 @@ import "./styles.css";
 import { useParams } from "react-router-dom";
 import { detalhesServicos } from "../../assets/data/infoDetalhesServicos";
 import Titulo from "../../components/tituloH3/Titulo";
+import { listaFInal } from "../../assets/data/infolistaServico"
+import ItemLista from "./ItemLista";
+import ListaDinamica from "./ItemLista";
 
 function ServicosDetalhes () {
     //variaveis para passar estilizacao ao com titulo
@@ -11,6 +14,11 @@ function ServicosDetalhes () {
     //encontra o servico conventerndo o id para int
     const { id } = useParams();
     const servico = detalhesServicos.find(p => p.id === parseInt(id));
+    console.log(servico)
+    const lista = listaFInal.find(p => p.id === parseInt(id));
+    console.log(lista)
+    alert(lista.id)
+
 
     //caso nao ache o ID, retorna um aviso que a secao nao foi encontrada
     if(!servico) {
@@ -31,9 +39,9 @@ function ServicosDetalhes () {
                     Text={servico.titulo}
                 />
                 <h3 className="pacotes-detalhes">O Pacote inclue:</h3>
-                <ul>{/* vai ser uma props para lista o pacote */}
-                    <li></li>
-                </ul>
+                
+                {/*<ListaDinamica  itens={lista} />*/}
+
             </div>
             <div className="container-servicos-info-detalhes">
                 <img className="img-servicosDetalhados" src={servico.imgG} alt={servico.alt} />
