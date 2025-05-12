@@ -1,0 +1,14 @@
+/* layout da secao de servicos detalhados */
+.container-servicos-detalhes {
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+
+/* container da divisao dos conteudos entre img e text */
+.container-servicos-info-detalhes {
+    border: solid red 1px;
+    width: 50%;
+    height: auto;
+}
+

@@ -1,8 +1,11 @@
+import "./styles.css";
+
 function ServicosDetalhes () {
     return(
-        <>
-            <h3>page servicos detalhados</h3>
-        </>
+        <div className="container-servicos-detalhes">
+            <div className="container-servicos-info-detalhes"></div>
+            <div className="container-servicos-info-detalhes"></div>
+        </div>
     );
 };
 

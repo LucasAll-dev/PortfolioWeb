@@ -1,9 +1,8 @@
 /* layout do segmento */
 #container-contato {
     width: auto;
-    height: 700px;
+    height: 727px;
     display: flex;
     background-color: #131313;
     padding: 0 10%;
-    border: solid 1px blue;
 }

@@ -25,13 +25,18 @@ function Contato () {
                     posso ajudar a transformar suas ideias em vídeos incríveis!
                 </p>
                 <WhatsBottom />
-                <p>E-mail@exemplo</p>
-                <p>(55) 9932-1734</p>
+                <p id="textEmail">E-mail@exemplo<br />
+                (55) 9932-1734</p>
                 <MidiaIcons />
             </div>
             <div className="layout-contato-segmentos">
-                <img src="#" alt="#" />
-                <p></p>
+                <img id="img-contato" src="src/assets/img/IMG_5003.JPG" alt="foto do video-maker dhymas" />
+                <p id="text-img-contato">
+                    Lorem ipsum dolor sit amet, consectetur<br />
+                    adipiscing elit. Cras sit amet magna eget enim<br />
+                    suscipit tincidunt id id ante. Nunc imperdiet dui<br />
+                    ac accumsan lobortis.<br />
+                </p>
             </div>
         </>
     );
