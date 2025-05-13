@@ -3,22 +3,18 @@ import { useParams } from "react-router-dom";
 import { detalhesServicos } from "../../assets/data/infoDetalhesServicos";
 import Titulo from "../../components/tituloH3/Titulo";
 import { listaFInal } from "../../assets/data/infolistaServico"
-import ItemLista from "./ItemLista";
-import ListaDinamica from "./ItemLista";
+import ListaDados from "../../components/listaDados/ListaDados";
 
 function ServicosDetalhes () {
     //variaveis para passar estilizacao ao com titulo
     const containerDetalhesServico = "titulo-servicos-detalhes";
     const IdDetalhesServico = "titulo-pagina-serDetalhes";
 
-    //encontra o servico conventerndo o id para int
+    //recebe o id passado pela url
     const { id } = useParams();
+    //extrai o objeto a partir do id extraido pela url
     const servico = detalhesServicos.find(p => p.id === parseInt(id));
-    console.log(servico)
     const lista = listaFInal.find(p => p.id === parseInt(id));
-    console.log(lista)
-    alert(lista.id)
-
 
     //caso nao ache o ID, retorna um aviso que a secao nao foi encontrada
     if(!servico) {
@@ -39,8 +35,8 @@ function ServicosDetalhes () {
                     Text={servico.titulo}
                 />
                 <h3 className="pacotes-detalhes">O Pacote inclue:</h3>
-                
-                {/*<ListaDinamica  itens={lista} />*/}
+                {/* componente que lista a descricao do servico */}
+                <ListaDados item={lista} />
 
             </div>
             <div className="container-servicos-info-detalhes">

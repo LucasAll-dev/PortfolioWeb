@@ -1,9 +1,9 @@
 export const listaFInal = [
     {
-        id: 1, itens:"texto", alt: "teste", view: "teste2"
+        id: 1, itens:"texto", alt: "teste1 alt", view: "teste1 view"
     },
     {
-        id: 2, itens:"texto2"
+        id: 2, itens:"texto2",alt: "teste2 alt"
     },
     {
         id: 3, itens:"texto3"
