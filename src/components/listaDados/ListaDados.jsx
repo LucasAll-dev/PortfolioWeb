@@ -15,7 +15,6 @@ const ListaDados = ({ item }) => { //id_card
 
   return (
     <div>
-      <h2>Dados do Item ID 1:</h2>
       <ul>
         {valores.map((valor, index) => (
           <li key={index}>{valor}</li>

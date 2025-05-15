@@ -1,15 +1,11 @@
 import "./styles.css";
 import { useParams } from "react-router-dom";
 import { detalhesServicos } from "../../assets/data/infoDetalhesServicos";
-import Titulo from "../../components/tituloH3/Titulo";
 import { listaFInal } from "../../assets/data/infolistaServico"
 import ListaDados from "../../components/listaDados/ListaDados";
+import WhatsBottom from "../../components/whatsBottom/WhatsBottom"
 
 function ServicosDetalhes () {
-    //variaveis para passar estilizacao ao com titulo
-    const containerDetalhesServico = "titulo-servicos-detalhes";
-    const IdDetalhesServico = "titulo-pagina-serDetalhes";
-
     //recebe o id passado pela url
     const { id } = useParams();
     //extrai o objeto a partir do id extraido pela url
@@ -29,15 +25,14 @@ function ServicosDetalhes () {
     return(
         <div className="container-servicos-detalhes">        
             <div className="container-servicos-info-detalhes">
-                <Titulo
-                    Container={containerDetalhesServico}
-                    Id={IdDetalhesServico}
-                    Text={servico.titulo}
-                />
+                <h3 id="titulo-pagina-serDetalhes">{servico.titulo}</h3>
                 <h3 className="pacotes-detalhes">O Pacote inclue:</h3>
+                <div id="container-list-servicos">
                 {/* componente que lista a descricao do servico */}
-                <ListaDados item={lista} />
-
+                    <ListaDados item={lista} />
+                    <p id="preco-servicos">R$ {servico.preco}</p>
+                    <WhatsBottom />
+                </div>
             </div>
             <div className="container-servicos-info-detalhes">
                 <img className="img-servicosDetalhados" src={servico.imgG} alt={servico.alt} />

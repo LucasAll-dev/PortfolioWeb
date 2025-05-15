@@ -1,8 +1,8 @@
 import Fieels from "../logo/Fieels";
 import MidiaIcons from "../iconsMidia/MidiaIcons";
-/*import MenuNavegacao from "../navegacao/MenuNavegacao";*/
-import HomePage from "../referencia/ReferenciaSecao";
+import MenuNavegacao from "../navegacao/MenuNavegacao";
 import "./styles.css"
+
 
 
 function Header ()  {
@@ -10,7 +10,7 @@ function Header ()  {
         <>
         <header>
             <Fieels />
-            <HomePage />
+            <MenuNavegacao />
             <MidiaIcons />
         </header>
         </>

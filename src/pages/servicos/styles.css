@@ -9,7 +9,6 @@
 
 /* container da divisao dos conteudos entre img e text */
 .container-servicos-info-detalhes {
-    border: solid red 1px;
     width: 45%;
     height: auto;
     display: flex;
@@ -27,7 +26,6 @@
     align-items: center;
     justify-content: center;
     color: red;
-    
 }
 
 /* container do titulo */
@@ -39,9 +37,10 @@
 /* titulo da secao */
 #titulo-pagina-serDetalhes {
     color: white;
-    font-size: 38px;
-    margin-top: 20px;
+    font-size: 36px;
+    margin-top: 15px;
     font-weight: 600;
+    text-transform: uppercase;
     font-family: "Source Serif 4", serif;
 }
 
@@ -49,16 +48,37 @@
 .img-servicosDetalhados {
     width: 300x;
     height: 510px;
+    margin-left: 300px;
+    margin-top: 30px;
+    border-radius: 3px;
 }
 
 /* estilizacao do titulo de informacoes de pacote */
 .pacotes-detalhes {
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
-    margin-top: 14%;
+    margin-top: 19%;
 }
 
-ul li {
+/* preco do servico */
+#preco-servicos {
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 300;
     color: white;
+    padding: 12px 18px;
+    border: solid white 1px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+/* container de estilizacao das lista */
+#container-list-servicos {
+    margin-left: 26px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: start;
 }

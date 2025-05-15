@@ -1,11 +1,18 @@
-import MenuNavegacao from "../navegacao/MenuNavegacao";
+import { useLocation } from "react-router-dom";
 
-function HomePage () {
-    return(
-        <div>
-            <MenuNavegacao />
-        </div>
-    );
+function RedirecionaRotas() {
+    const { localPage } = useLocation();
+
+
+    if (localPage === "/") {
+        return (
+            <p>deu certo {localPage}</p>
+        )
+    } else {
+        return(
+            <p>nao deu certo</p>
+        )
+    }
 }
 
-export default HomePage;
+export default RedirecionaRotas;

@@ -7,7 +7,7 @@ export const detalhesServicos = [
         imgG: "../src/assets/img/IMG_5001.JPG", 
         alt: "fotos dos servicos", 
         titulo: "Pacote de Casamento", 
-        preco: "1200,0",
+        preco: "1.200,00",
         lista: "listServico1"
     },
     {

@@ -9,7 +9,7 @@ import Sobre from "../../components/sobre/Sobre";
 function Home () {
     return (
         <div className="container-global">
-            <Sobre />
+            <Sobre id="sobre"  />
             <Servico />
             <Skill />
             <Portfolio />
